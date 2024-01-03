@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link href="{% static 'theme/css/login_register.css' %}" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="login-wrap">
+      {% if messages %}
+      {% for message in messages %}
+      <div class="alert alert-info alert-dismissible fade show" role="alert">
+        {{ message }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+      </div>
+      {% endfor %}
+      {% endif %}
+      <div class="login-html">
+        <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign Up</label>
+        <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab"></label>
+        <div class="login-form">
+          <div class="sign-in-htm">
+            {{form.errors}}
+            <form action="" method="POST">
+              {% csrf_token %}
+              <div class="group">
+                {{form.username}}
+              </div>
+              <div class="group">
+                {{form.email}}
+              </div>
+              <div class="group">
+                {{form.password1}}
+              </div>
+              <div class="group">
+                {{form.password2}}
+              </div>
+              <div class="group">
+                <input type="submit" class="button" value="Sign Up">
+              </div>
+              <div class="hr"></div>
+              <div class="foot-lnk">
+                <label for="tab-1">Already Member? <a href="{% url 'accounts:login' %}">Login</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+<script>
+  var form_fields = document.querySelectorAll('[id^="id_"]')
+  form_fields[0].placeholder = 'Username..';
+  form_fields[1].placeholder = 'Email..';
+  form_fields[2].placeholder = 'Enter password..';
+  form_fields[3].placeholder = 'Re-enter password..';
+
+
+  for (var field in form_fields) {
+    form_fields[field].className += 'input'
+  }
+</script>
+
+</html>

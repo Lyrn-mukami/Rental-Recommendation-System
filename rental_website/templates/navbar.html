@@ -1,0 +1,43 @@
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4">
+    <div class="container">
+        <a class="navbar-brand" href="#!">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                {% url 'public:index' as index_url %}
+                <li class="nav-item"><a class="nav-link {% if request.path == index_url %} active {%endif%}"
+                        aria-current="page" href="{{index_url}}">Home</a></li>
+                {% url 'public:preferences' as preferences_url %}
+                <li class="nav-item"><a class="nav-link {% if request.path == preferences_url %} active {%endif%}" href="
+                        {{preferences_url}}">Find a Home</a></li>
+                {% if user.is_authenticated %}
+                {% url 'accounts:profile' as profile_url %}
+                <li class="nav-item"><a class="nav-link {% if request.path == profile_url %}active {% endif %}" href="{{profile_url}}">Hi {{user.username}}</a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'accounts:logout' %}">Logout</a></li>
+                {% else %}
+                <li class="nav-item"><a class="nav-link" href="{% url 'accounts:register' %}">Login/Register</a></li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- <div>
+    {% url 'public:index' as index_url %}
+    <span>{% if request.path == index_url %}Home{% else %}<a href="{{index_url}}">Home</a>{% endif %}</span>
+    {% url 'public:preferences' as preferences_url %}
+    <span>{% if request.path == preferences_url %}Preferences{% else %}<a href="{{preferences_url}}">Preferences</a>
+        {% endif %}</span>
+    <span style="float: right;">
+        {% if user.is_authenticated %}
+        {% url 'accounts:profile' as profile_url %}
+        <span>Hi {% if request.path == profile_url %}{{user.username}}{% else %} <a href="{{profile_url}}">{{user.username}}</a> {% endif %}</span>
+        <span><a href="{% url 'accounts:logout' %}">Logout</a></span>
+        {% else %}
+        <span><a href="{% url 'accounts:login' %}">Login</a></span>
+        {% endif %}
+    </span>
+</div> -->

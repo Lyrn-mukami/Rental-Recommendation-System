@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block title %}Find a Home{% endblock %}
+
+{% block content %}
+<section class="py-4">
+    <div>the property matches properties in {{cluster}}</div>
+    <div class="container ms-auto">
+        <h1 class="d-flex justify-content-center">Suggested property listings</h1>
+        <div class="row justify-content-center">
+            <div class="mb-3 col-4 text-center">
+                <h5 class="fw-normal">Listing</h5>
+            </div>
+            <div class="mb-3 col-4 text-center">
+                <h5 class="fw-normal">Action</h5>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="mb-3 col-4 text-center">
+                <div class="p-2 bd-highlight mx-auto justify-content-center" id="property-listing">
+                    <ul>
+                        <li>Location: Westlands</li>
+                        <li>Number of rooms: 2</li>
+                        <li>Number of bathrooms: 2</li>
+                        <li>Price: 70,000sh</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mb-3 col-4 text-center my-4">
+                <button class="btn btn-primary" >Show more</button>
+                <button class="btn btn-danger">Not intrested</button>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="mb-3 col-4 text-center">
+                <div class="p-2 bd-highlight mx-auto justify-content-center" id="property-listing">
+                    <ul>
+                        <li>Location: Westlands</li>
+                        <li>Number of rooms: 2</li>
+                        <li>Number of bathrooms: 2</li>
+                        <li>Price: 70,000sh</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mb-3 col-4 text-center my-4">
+                <button class="btn btn-primary" >Show more</button>
+                <button class="btn btn-danger">Not intrested</button>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="mb-3 col-4 text-center">
+                <div class="p-2 bd-highlight mx-auto justify-content-center" id="property-listing">
+                    <ul>
+                        <li>Location: Westlands</li>
+                        <li>Number of rooms: 2</li>
+                        <li>Number of bathrooms: 2</li>
+                        <li>Price: 70,000sh</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mb-3 col-4 text-center my-4">
+                <button class="btn btn-primary" >Show more</button>
+                <button class="btn btn-danger">Not intrested</button>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

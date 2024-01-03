@@ -1,0 +1,4 @@
+-r prod.txt
+
+black==23.11.0
+mypy==1.7.0
