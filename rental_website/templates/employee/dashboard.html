@@ -1,0 +1,80 @@
+{% extends 'employee/staff-base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="tabs">
+    <div class="tab-1">
+        Available property listings
+        <div id="number">14</div>
+    </div>
+    <div class="tab-2">
+        Rented property listings
+        <div id="number">40</div>
+    </div>
+    <div class="tab-3">
+        Recently added listings
+        <div id="number">5</div>
+    </div>
+</div>
+<div class="tbl-summary">
+    <table>
+        <tr>
+            <th>Location</th>
+            <th>Bedrooms</th>
+            <th>Bathrooms</th>
+            <th>Price</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Kileleshwa, Nairobi</td>
+            <td>3</td>
+            <td>3</td>
+            <td>200000</td>
+            <td>Rented</td>
+        </tr>
+        <tr>
+            <td>Kilimani, Nairobi</td>
+            <td>2</td>
+            <td>3</td>
+            <td>65000</td>
+            <td>Rented</td>
+        </tr>
+        <tr>
+            <td>Muthaiga, Nairobi</td>
+            <td>4</td>
+            <td>5</td>
+            <td>300000</td>
+            <td>Rented</td>
+        </tr>
+        <tr>
+            <td>Kileleshwa, Nairobi</td>
+            <td>4</td>
+            <td>3</td>
+            <td>250000</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Lavington, Nairobi</td>
+            <td>3</td>
+            <td>3</td>
+            <td>80000</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Kahawa Wendani, Nairobi</td>
+            <td>4</td>
+            <td>2</td>
+            <td>57000</td>
+            <td>Rented</td>
+        </tr>
+        <tr>
+            <td>Lavington, Nairobi</td>
+            <td>2</td>
+            <td>2</td>
+            <td>60000</td>
+            <td>Available</td>
+        </tr>
+    </table>
+</div>
+{% endblock %}

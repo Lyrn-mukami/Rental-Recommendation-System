@@ -1,0 +1,20 @@
+{% extends 'employee/form-base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="form-wrap">
+    <form action="">
+        <h3>Alter existing listing</h3>
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location">
+        <label for="bedrooms">Number of Bedrooms</label>
+        <input type="number" id="bedrooms" name="bedrooms">
+        <label for="bathrooms">Number of Bathrooms</label>
+        <input type="number" id="bathrooms" name="bathrooms">
+        <label for="price">Price</label>
+        <input type="number" id="price" name="price">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+{% endblock %}

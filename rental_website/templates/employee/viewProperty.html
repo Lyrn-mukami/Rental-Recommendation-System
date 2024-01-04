@@ -1,0 +1,95 @@
+{% extends 'employee/staff-base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="tbl-summary">
+    <table>
+        <tr>
+            <th>Location</th>
+            <th>Bedrooms</th>
+            <th>Bathrooms</th>
+            <th>Price</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>Kileleshwa, Nairobi</td>
+            <td>3</td>
+            <td>3</td>
+            <td>200000</td>
+            <td>Rented</td>
+            <td id="action-btns">
+                <button class="btn btn-primary"><a href="{% url 'employee:editProperty' %}">Edit</a></button>
+                <button class="btn btn-danger">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Kilimani, Nairobi</td>
+            <td>2</td>
+            <td>3</td>
+            <td>65000</td>
+            <td>Rented</td>
+            <td id="action-btns">
+                <button class="btn btn-primary">Edit</button>
+                <button class="btn btn-danger">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Muthaiga, Nairobi</td>
+            <td>4</td>
+            <td>5</td>
+            <td>300000</td>
+            <td>Rented</td>
+            <td id="action-btns">
+                <button class="btn btn-primary">Edit</button>
+                <button class="btn btn-danger">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Kileleshwa, Nairobi</td>
+            <td>4</td>
+            <td>3</td>
+            <td>250000</td>
+            <td>Available</td>
+            <td id="action-btns">
+                <button class="btn btn-primary">Edit</button>
+                <button class="btn btn-danger">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Lavington, Nairobi</td>
+            <td>3</td>
+            <td>3</td>
+            <td>80000</td>
+            <td>Available</td>
+            <td id="action-btns">
+                <button class="btn btn-primary">Edit</button>
+                <button class="btn btn-danger">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Kahawa Wendani, Nairobi</td>
+            <td>4</td>
+            <td>2</td>
+            <td>57000</td>
+            <td>Rented</td>
+            <td id="action-btns">
+                <button class="btn btn-primary">Edit</button>
+                <button class="btn btn-danger">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Lavington, Nairobi</td>
+            <td>2</td>
+            <td>2</td>
+            <td>60000</td>
+            <td>Available</td>
+            <td id="action-btns">
+                <button class="btn btn-primary">Edit</button>
+                <button class="btn btn-danger">Delete</button>
+            </td>
+        </tr>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,69 @@
+#dashboard{
+    display: grid;
+    grid-template-areas: 
+    "nav header header"
+    "nav content content"
+    "nav content content";
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 80px 1fr;
+    grid-template-columns: 250px 1fr;
+}
+header{
+    grid-area: header;
+}
+            /*Sidebar styling  */
+nav{
+    padding-top: 50%;
+    background: rgb(33,37, 41);
+    grid-area: nav;
+}
+nav li{
+    list-style: none;
+    line-height:400%;
+    color: rgba(255,255,255,0.55);
+}
+.sidebar a .nav-link.active{
+    color: #fff;
+}
+
+            /*Main content styling  */
+main{
+    grid-area: content;
+    padding: 2%;
+}
+.tabs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    padding: 20px;
+    justify-content:space-evenly;
+}
+[class^="tab-"]{
+    border: 2px solid black;
+    padding:4%;
+    line-height: 300%;
+}
+[class^="tab-"]:not(#number){
+    white-space: nowrap;
+}
+#number{
+    float: right;
+    font-size: 26px;
+}
+table{
+    width: 100%;
+    height:80vh;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+td, th {
+    border: 1px solid #8d8d8d;
+    text-align: left;
+    padding: 8px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}

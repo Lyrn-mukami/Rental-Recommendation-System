@@ -1,0 +1,8 @@
+<section class="sidebar">
+<ul>
+    {% url 'employee:listings' as listings_url %}
+    <li class="nav-item"><a class="nav-link {% if request.path == listings_url %}active{%endif%}" href="{{listings_url}}"> Property listings</a></li>
+    
+    <li class="nav-item"><a class="nav-link" href=" {% url 'employee:newProperty' %}"> New property listing</a></li>
+</ul>
+</section>
