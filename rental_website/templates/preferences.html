@@ -1,58 +1,20 @@
-{% extends 'base.html' %}
+{% extends 'form-base.html' %}
 
 {% block title %}Find a Home{% endblock %}
 
 {% block content %}
-<section class="py-4">
-    <div class="container ms-auto">
-        <h1 class="d-flex justify-content-center">Home Preferences</h1>
-        <div class="row justify-content-center">
-            <div class="mb-3 col-4 text-center">
-                <h5 class="fw-normal">Preference</h5>
-            </div>
-            <div class="mb-3 col-4 text-center">
-                <h5 class="fw-normal">Level of importance</h5>
-            </div>
-        </div>
-        <form action="preferences/critique">
-        <div class="row justify-content-center">
-            <div class="mb-3 col-4 text-center">
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Location" name="location">
-            </div>
-            <div class="mb-3 col-4">
-                <input type="number" class="form-control " id="formGroupExampleInput"
-                    placeholder="Importance (between 1 and 5)" min="1" max="5">
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="mb-3 col-4 text-center">
-                <input type="number" class="form-control" id="formGroupExampleInput" placeholder="Number of bedrooms" name="bedrooms">
-            </div>
-            <div class="mb-3 col-4">
-                <input type="number" class="form-control " id="formGroupExampleInput"
-                    placeholder="Importance (between 1 and 5)" min="1" max="5">
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="mb-3 col-4 text-center">
-                <input type="number" class="form-control" id="formGroupExampleInput" placeholder="Number of Bathrooms" name="bathrooms">
-            </div>
-            <div class="mb-3 col-4">
-                <input type="number" class="form-control " id="formGroupExampleInput"
-                    placeholder="Importance (between 1 and 5)" min="1" max="5">
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="mb-3 col-4 text-center">
-                <input type="number" class="form-control" id="formGroupExampleInput" placeholder="Price" name="price">
-            </div>
-            <div class="mb-3 col-4">
-                <input type="number" class="form-control " id="formGroupExampleInput"
-                    placeholder="Importance (between 1 and 5)" min="1" max="5">
-            </div>
-        </div>
-        <button type="submit">Submit</button>
+<div class="form-wrap">
+    <form action="">
+        <h3>Enter Preferences</h3>
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location">
+        <label for="bedrooms">Number of Bedrooms</label>
+        <input type="number" id="bedrooms" name="bedrooms">
+        <label for="bathrooms">Number of Bathrooms</label>
+        <input type="number" id="bathrooms" name="bathrooms">
+        <label for="price">Price</label>
+        <input type="number" id="price" name="price">
+        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
-    </div>
-</section>
+</div>
 {% endblock %}

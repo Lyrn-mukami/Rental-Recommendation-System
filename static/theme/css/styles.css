@@ -667,7 +667,7 @@ progress {
   }
 }
 .row {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 1rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -10835,4 +10835,14 @@ textarea.form-control-lg {
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
+} 
+header.bg-image-full{
+  background-image: url('/static/theme/assets/main-1.jpg');
+}
+div.bg-image-full{
+  background-image: url('/static/theme/assets/main-5.jpg');
+
+}
+#preferences .container {
+  
 }
