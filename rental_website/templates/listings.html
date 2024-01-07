@@ -6,72 +6,26 @@
 <section class="py-4">
     <div class="container ms-auto">
         <h1 class="d-flex justify-content-center">Recommended property listings</h1>
+        
+        {% for i in rec %}
         <div class="row justify-content-center">
             <div class="mb-3 col-6 text-center">
                 <div class="p-2 bd-highlight mx-auto justify-content-center" id="property-listing">
+
                     <ul>
-                        <li>Location: Westlands</li>
-                        <li>Number of rooms: 2</li>
-                        <li>Number of bathrooms: 2</li>
-                        <li>Price: 70,000sh</li>
+                        <li>Location: {{i.location}}</li>
+                        <li>Number of bedrooms: {{i.bedrooms}}</li>
+                        <li>Number of bathrooms: {{i.bathrooms}}</li>
+                        <li>Price: {{i.price}}</li>
                     </ul>
+
                 </div>
             </div>
-            <div class="mb-3 col-6 text-center">
-                <div class="p-2 bd-highlight mx-auto justify-content-center" id="property-listing">
-                    <ul>
-                        <li>Location: Westlands</li>
-                        <li>Number of rooms: 2</li>
-                        <li>Number of bathrooms: 2</li>
-                        <li>Price: 70,000sh</li>
-                    </ul>
-                </div>
+            <div class="mb-3 col-4 text-center my-4">
+                <button class="btn btn-primary">View</button>
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="mb-3 col-6 text-center">
-                <div class="p-2 bd-highlight mx-auto justify-content-center" id="property-listing">
-                    <ul>
-                        <li>Location: Westlands</li>
-                        <li>Number of rooms: 2</li>
-                        <li>Number of bathrooms: 2</li>
-                        <li>Price: 70,000sh</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="mb-3 col-6 text-center">
-                <div class="p-2 bd-highlight mx-auto justify-content-center" id="property-listing">
-                    <ul>
-                        <li>Location: Westlands</li>
-                        <li>Number of rooms: 2</li>
-                        <li>Number of bathrooms: 2</li>
-                        <li>Price: 70,000sh</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-end">
-            <div class="mb-3 col-6 text-center">
-                <div class="p-2 bd-highlight mx-auto justify-content-center" id="property-listing">
-                    <ul>
-                        <li>Location: Westlands</li>
-                        <li>Number of rooms: 2</li>
-                        <li>Number of bathrooms: 2</li>
-                        <li>Price: 70,000sh</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="mb-3 col-6 text-center">
-                <div class="p-2 bd-highlight mx-auto justify-content-center" id="property-listing">
-                    <ul>
-                        <li>Location: Westlands</li>
-                        <li>Number of rooms: 2</li>
-                        <li>Number of bathrooms: 2</li>
-                        <li>Price: 70,000sh</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 </section>
 {% endblock %}

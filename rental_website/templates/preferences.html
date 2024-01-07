@@ -4,7 +4,8 @@
 
 {% block content %}
 <div class="form-wrap">
-    <form action="">
+    <form action="preferences/listings">
+        {% csrf_token %}
         <h3>Enter Preferences</h3>
         <label for="location">Location</label>
         <input type="text" id="location" name="location">
