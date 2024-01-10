@@ -52,7 +52,6 @@
 50,"BYPASS, EASTERN BYPASS, Ruiru, Ruiru",2,2,20000
 51,"Ruaka, Kiambaa",1,1,20000
 52,"RUMENYE, Ruaka, Kiambaa",2,2,20000
-53,"Limuru Road, Ruaka, Kiambaa",1,1,20000
 54,"Ongata Rongai, Kajiado North",2,1,20000
 55,"Kisumu Central Area, Kisumu Central",2,2,20000
 56,"Kikuyu Town, Kikuyu",2,2,22000
@@ -80,7 +79,6 @@
 78,"Kikuyu Town, Kikuyu",2,2,28000
 79,"Limuru Road, Ruaka, Kiambaa",2,2,28000
 80,"MOMBASA ROAD, Mombasa Road, Mombasa Road",2,2,28000
-81,"Syokimau, Athi River",2,2,28000
 82,"Muringa Road, Kilimani, Dagoretti North",5,5,200000
 83,"Limuru Road, Ruaka, Kiambaa",2,2,28000
 84,"Kisumu West, Kisumu West",1,1,30000
@@ -89,7 +87,6 @@
 87,"Karen, Karen, Langata",1,1,30000
 88,"Kileleshwa, Dagoretti North",1,1,30000
 89,"Limuru Road, Ruaka, Kiambaa",2,2,30000
-90,"Limuru Road, Ruaka, Kiambaa",2,2,30000
 91,"3rd, 3rd avenue, Parklands, Westlands",1,1,30000
 92,"mtwapa, Mtwapa, Kilifi South",2,2,30000
 93,"NA, Racecourse, Ngong Road, Ngong Road",1,1,30000
@@ -145,7 +142,6 @@
 143,"Kiambere Road, Upper Hill, Langata",3,2,240000
 144,"kikambala road, Kileleshwa, Dagoretti North",3,3,85000
 145,"Masaba Road, Upper Hill, Langata",1,1,38000
-146,"Ruaka, Kiambaa",2,2,38000
 147,"Mbagathi way, Ngumo Estate, Langata",2,1,39000
 148,"Limuru road, Ruaka, Kiambaa",2,2,40000
 149,"Maloi Apartments, Masai Lodge Road, Ongata Rongai, Kajiado North",3,2,40000
@@ -164,16 +160,13 @@
 162,"Precious Gardens Estate, Riruta, Dagoretti South",3,3,40000
 163,"Ruaka, Kiambaa",2,2,40000
 164,"Limuru Road, Ruaka, Kiambaa",2,2,40000
-165,"Limuru Road, Ruaka, Kiambaa",2,2,40000
 166,"Limuru Road, Ruaka, Kiambaa",3,2,40000
-167,"Limuru Road, Ruaka, Kiambaa",3,2,40000
 168,"Makadara, Makadara",2,1,40000
 169,"Naivasha Road, Naivasha Road, Dagoretti North",2,2,40000
 170,"Ruaka, Kiambaa",2,2,40000
 171,"Mbaazi Avenue, Lavington, Dagoretti North",1,1,40000
 172,"Karen-Dagoretti Road, Karen, Langata",2,2,40000
 173,"Koma Rock, Kangundo",3,2,40000
-174,"Ruaka, Kiambaa",2,2,40000
 175,"Mombasa Rd, Syokimau, Athi River",3,2,40000
 176,"Ruaka, Kiambaa",3,2,42000
 177,"Riara Heights, Naivasha Road, Dagoretti Corner, Dagoretti South",2,1,42500
@@ -199,17 +192,14 @@
 197,"Thindigua, Thindigua",2,2,45000
 198,"Ruaka, Kiambaa",2,2,45000
 199,"Langata Area, Langata",2,2,45000
-200,"Langata Area, Langata",2,2,45000
 201,"Chalbi Drive, Lavington, Dagoretti North",1,1,45000
 202,"Imara Daima, Embakasi",3,1,45000
-203,"Syokimau, Athi River",3,3,45000
 204,"Kiambu Road, Kiambu Road",2,2,45000
 205,"Juja farm road, Juja, Kiambu Constituency",4,4,45000
 206,"Limuru Road, Ruaka, Kiambaa",3,2,45000
 207,"Limuru road, Ruaka, Kiambaa",2,2,45000
 208,"Ngong Road, Ngong Road",2,1,45000
 209,"Mandera Road, Kileleshwa, Dagoretti North",1,1,45000
-210,"Langata Area, Langata",2,2,45000
 211,"Denis Pritt, Kilimani, Dagoretti North",1,1,45000
 212,"Parklands, Westlands",2,1,45000
 213,"Karen, Langata",3,1,45000
@@ -296,10 +286,8 @@
 294,"waiyaki, waiyaki, Loresho, Westlands",2,2,55000
 295,"Thindigua, Thindigua",3,3,55000
 296,"Lavington, Dagoretti North",2,2,55000
-297,"Fourways Junction Estate, Kiambu Road, Kiambu Road",2,2,55000
 298,"Kilimani, Dagoretti North",1,1,55000
 299,"Kileleshwa, Dagoretti North",3,3,55000
-300,"Kileleshwa, Dagoretti North",3,3,55000
 301,"Statehouse Crescent, Off Statehouse Road, State House, Dagoretti North",2,1,55000
 302,"Kileleshwa, Dagoretti North",2,1,55000
 303,"Upper Hill, Langata",2,1,55000
@@ -345,7 +333,6 @@
 343,"Kileleshwa, Dagoretti North",3,2,60000
 344,"Kiambu Road, Kiambu Road",4,4,60000
 345,"Karen, Langata",2,1,60000
-346,"Westlands Area, Westlands",2,2,60000
 347,"Ruaka, Kiambaa",3,1,60000
 348,"Ngara, Starehe",3,2,60000
 349,"Rhapta Road, Westlands",1,1,60000
@@ -354,7 +341,6 @@
 352,"Kileleshwa, Dagoretti North",2,2,60000
 353,"Kileleshwa, Dagoretti North",2,2,60000
 354,"Kilimani, Dagoretti North",2,2,60000
-355,"Kilimani, Dagoretti North",2,2,60000
 356,"Fourways Junction, Kiambu Road, Kiambu Road",3,2,60000
 357,"Off Rhapta Road, Westlands Area, Westlands",1,1,60000
 358,"Loresho, Loresho, Westlands",2,2,60500
@@ -384,9 +370,7 @@
 382,"Upper Hill, Langata",2,2,65000
 383,"wambugu road, 1st parkland, Parklands, Westlands",2,2,65000
 384,"Kileleshwa, Dagoretti North",2,2,65000
-385,"Kilimani, Dagoretti North",1,1,65000
 386,"westlands, Westlands, Riverside, Westlands",3,2,65000
-387,"kilimani, kilimani, Kilimani, Dagoretti North",2,2,65000
 388,"kileleshwa, kileleshwa, Kileleshwa, Dagoretti North",3,2,65000
 389,"Waiyaki Way, Westlands",3,3,65000
 390,"Mombasa Road Next To Eka Hotel, Mombasa Road, Mombasa Road",1,1,65000
@@ -395,7 +379,6 @@
 393,"Lavington, Dagoretti North",2,2,65000
 394,"Kindaruma road, Kilimani, Dagoretti North",2,2,65000
 395,"Brookside Drive, Brookside, Westlands",2,2,65000
-396,"Kilimani, Dagoretti North",2,2,65000
 397,"Valley Arcade, Dagoretti North",2,2,65000
 398,"Kileleshwa, Dagoretti North",2,2,65000
 399,"Argwings Kodhek, Kilimani, Dagoretti North",2,2,65000
@@ -411,11 +394,7 @@
 409,"lavington, Lavington, Dagoretti North",1,1,65000
 410,"kilimani, Kilimani, Kilimani, Dagoretti North",2,2,65000
 411,"kilimani, Kilimani, Kilimani, Dagoretti North",3,2,65000
-412,"kilimani, kilimani, Kilimani, Dagoretti North",2,2,65000
-413,"kilimani, kilimani, Kilimani, Dagoretti North",2,2,65000
 414,"Rhapta Road, Westlands",3,2,65000
-415,"Loresho, Westlands Area, Westlands",2,2,65000
-416,"Valley Arcade, Lavington, Dagoretti North",2,2,65000
 417,"Lavington, Valley Arcade, Dagoretti North",2,2,65000
 418,"Kileleshwa, Dagoretti North",2,2,65000
 419,"Statehouse Cresent, Off Statehouse Road, State House, Dagoretti North",3,1,65000
@@ -488,7 +467,6 @@
 486,"Mimosa, Ngong Road, Ngong Road",3,2,70000
 487,"21 04 30, 43 RA, Waiyaki Way, Westlands",3,3,70000
 488,"kilimani, Kilimani, Kilimani, Dagoretti North",2,2,70000
-489,"kilimani, kilimani, Kilimani, Dagoretti North",3,2,70000
 490,"East Church Road, Parklands, Westlands",3,2,70000
 491,"Lavington, Dagoretti North",2,1,70000
 492,"Ngong Road, Ngong Road",3,2,70000
@@ -499,7 +477,6 @@
 497,"Kandara Road, Kileleshwa, Dagoretti North",3,3,70000
 498,"Near Valley Arcade Shopping Centre, Valley Arcade, Dagoretti North",3,2,70000
 499,"Kiambu Road, Kiambu Road",4,4,70000
-500,"Kiambu Road, Kiambu Road",4,4,70000
 501,"Westlands Area, Westlands",2,2,70000
 502,"Madaraka, Langata",4,3,70000
 503,"Kilimani, Dagoretti North",3,1,70000
@@ -539,7 +516,6 @@
 537,"Ngong Rd, Kilimani, Dagoretti North",3,3,75000
 538,"Lavington, Dagoretti North",3,2,75000
 539,"Lavington, Dagoretti North",3,3,75000
-540,"Lavington, Dagoretti North",3,3,75000
 541,"Kilimani, Dagoretti North",2,2,75000
 542,"Westlands Area, Westlands",2,2,75000
 543,"Waiyaki Way- Waruku, Waruku, Waiyaki Way, Westlands",3,3,75000
@@ -549,15 +525,11 @@
 547,"kilimani, kilimani, Kilimani, Dagoretti North",2,2,75000
 548,"riverside, riverside, Riverside, Westlands",3,2,75000
 549,"lavington, lavington, Lavington, Dagoretti North",3,3,75000
-550,"kilimani, kilimani, Kilimani, Dagoretti North",2,2,75000
-551,"kilimani, kilimani, Kilimani, Dagoretti North",3,2,75000
 552,"Argwings Kodhek Road, Kilimani, Dagoretti North",3,2,75000
 553,"Ojijo, Parklands, Westlands",2,1,75000
-554,"9 Riverside Drive, Riverside, Westlands",2,2,75000
 555,"Riara Downs Apartments, Riara Road, Dagoretti North",4,3,75000
 556,"Denis Pritt, Kilimani, Dagoretti North",3,3,75000
 557,"Hatheru Road, Lavington, Dagoretti North",3,2,75000
-558,"Kilimani, Dagoretti North",3,2,75000
 559,"Kitengela, Kajiado North",2,2,75000
 560,"Yaya Center, Kilimani, Dagoretti North",2,2,75000
 561,"Riara Rd, Lavington, Dagoretti North",2,2,75000
@@ -568,20 +540,16 @@
 566,"Kilimani, Dagoretti North",2,2,75000
 567,"lavington, Lavington, Lavington, Dagoretti North",3,3,75000
 568,"kilimani, Kilimani, Kilimani, Dagoretti North",3,2,75000
-569,"lavington, Lavington, Lavington, Dagoretti North",3,3,75000
 570,"kilimani, kilimani, Kilimani, Dagoretti North",4,4,75000
 571,"Riverside, Westlands",2,2,75000
 572,"Kileleshwa, Dagoretti North",3,3,75000
 573,"1, Killimani, Kilimani, Dagoretti North",2,2,75000
 574,"Kilimani, Dagoretti North",2,1,75000
-575,"Kilimani, Dagoretti North",3,3,75000
 576,"Kilimani, Dagoretti North",2,1,75000
 577,"Kileleshwa, Dagoretti North",2,2,75000
-578,"Riara Road, Dagoretti North",3,2,75000
 579,"Argwing kodhek road, Lavington, Lavington, Dagoretti North",3,2,75000
 580,"Riara Road, Kilimani, Dagoretti North",3,3,75000
 581,"Kilimani, Dagoretti North",2,2,75000
-582,"Fourways Junction Estate, Kiambu Road, Kiambu Road",4,3,75000
 583,"Kabaseriani, Lavington, Dagoretti North",3,3,75000
 584,"Chelezo House Kindaruma Rd, Kilimani, Dagoretti North",2,2,75000
 585,"Off Gitanga Road, Valley Arcade, Dagoretti North",3,2,75000
@@ -591,7 +559,6 @@
 589,"Westlands Area, Westlands",3,3,75000
 590,"Kileleshwa, Dagoretti North",3,1,75000
 591,"Riverside, Westlands",1,1,75000
-592,"Lavington, Dagoretti North",2,2,75000
 593,"Rhapta Road, Westlands",4,2,75000
 594,"Kingara Road, Lavington, Dagoretti North",3,3,75000
 595,"Gitanga Road, Lavington, Dagoretti North",3,2,75000
@@ -636,7 +603,6 @@
 634,"Kandara road, Kileleshwa, Dagoretti North",3,3,80000
 635,"shanzu, shanzu, Mombasa CBD, Mombasa CBD",3,3,80000
 636,"Kileleshwa, Dagoretti North",3,3,80000
-637,"Kileleshwa, Dagoretti North",3,3,80000
 638,"Rhapta Road, Westlands",2,2,80000
 639,"Kileleshwa, Dagoretti North",2,2,80000
 640,"Riara, Lavington, Dagoretti North",2,2,80000
@@ -668,9 +634,6 @@
 666,"Lenana road, Kilimani, Dagoretti North",2,2,80000
 667,"kileleshwa, Kileleshwa, Kileleshwa, Dagoretti North",2,2,80000
 668,"lavington, Lavington, Lavington, Dagoretti North",3,2,80000
-669,"lavington, Lavington, Lavington, Dagoretti North",3,2,80000
-670,"kilimani, kilimani, Kilimani, Dagoretti North",2,2,80000
-671,"kilimani, kilimani, Kilimani, Dagoretti North",2,2,80000
 672,"KILIMANI, WOOD AVENUE, Kilimani, Dagoretti North",2,2,80000
 673,"rhapta road, Rhapta Road, Westlands",3,3,80000
 674,"kilimani, kilimani, Kilimani, Dagoretti North",2,2,80000
@@ -767,7 +730,6 @@
 765,"21 04 30, 13 RA, Brookside, Westlands",3,3,90000
 766,"Kilimani, Dagoretti North",3,2,90000
 767,"Kilimani, Dagoretti North",3,2,90000
-768,"Kilimani, Dagoretti North",3,2,90000
 769,"Muthangari Drive, Westlands Area, Westlands",2,2,90000
 770,"54, Rhapta Road, Rhapta Road, Westlands",3,3,90000
 771,"Kilimani, Dagoretti North",2,2,90000
@@ -798,7 +760,6 @@
 796,"Kilimani, Dagoretti North",3,3,90000
 797,"Ruaka, Kiambaa",3,2,90000
 798,"Riverside, Westlands",3,3,90000
-799,"Riverside, Westlands",3,3,90000
 800,"Lavington, Dagoretti North",3,3,90000
 801,"Westlands Pride, Waiyaki Way, Waiyaki Way, Westlands",3,2,90000
 802,"Riara Lane, Kilimani, Dagoretti North",2,2,90000
@@ -822,7 +783,6 @@
 820,"Kilimani, Dagoretti North",3,3,90000
 821,"Ngong Road, Ngong Road",3,3,90000
 822,"Kilimani, Dagoretti North",3,2,90000
-823,"kilimani, Kilimani, Kilimani, Dagoretti North",3,2,90000
 824,"kilimani, kilimani, Kilimani, Dagoretti North",3,2,90000
 825,"Rhapta Road, Westlands",2,2,90000
 826,"Ngong Road, Ngong Road",3,3,90000
@@ -840,12 +800,10 @@
 838,"Argwings kodhek road, Kilimani, Dagoretti North",2,2,90000
 839,"Mandera Road, Kileleshwa, Dagoretti North",2,2,90000
 840,"Woodlands Rd, Kilimani, Dagoretti North",2,2,90000
-841,"Kilimani, Dagoretti North",3,2,90000
 842,"Kileleshwa, Dagoretti North",2,1,90000
 843,"Dennis Pritt, Kilimani, Dagoretti North",3,3,90000
 844,"Dennis pritt, State House, Dagoretti North",3,3,90000
 845,"Dennis Pritt, Hurlingham, Dagoretti North",3,3,90000
-846,"Dennis Pritt, Kilimani, Dagoretti North",3,3,90000
 847,"City Park Drive, Off Limuru Road, Parklands, Westlands",3,2,90000
 848,"Westlands Area, Westlands",1,1,90000
 849,"Lavington, Dagoretti North",4,4,90000
@@ -882,10 +840,8 @@
 880,"Waiyaki Way, Westlands Area, Westlands",2,2,95000
 881,"Riara Road, Dagoretti North",2,2,95000
 882,"Rhapta Rd, Rhapta Road, Westlands",1,1,95000
-883,"Riverside Drive, Riverside, Westlands",1,1,95000
 884,"Mugoiri Road, Kileleshwa, Dagoretti North",3,3,95000
 885,"Kilimani, Dagoretti North",3,2,95000
-886,"kilimani, Kilimani, Kilimani, Dagoretti North",3,2,95000
 887,"kilimani, kilimani, Kilimani, Dagoretti North",3,2,95000
 888,"Lymack Suites, Kiambu Road, Kiambu Road",1,1,95000
 889,"Suguta Road, Kileleshwa, Dagoretti North",3,3,95000
@@ -902,8 +858,6 @@
 900,"21 05 05, 17 RA, Westlands Area, Westlands",2,2,95000
 901,"Waiyaki Way, Westlands",4,3,95000
 902,"Kilimani, Dagoretti North",3,3,95000
-903,"kilimani, kilimani, Kilimani, Dagoretti North",3,3,95000
-904,"kilimani, kilimani, Kilimani, Dagoretti North",3,3,95000
 905,"Kilimani, Dagoretti North",4,3,95000
 906,"Riara Massions, Maziwa, Nairobi, Nairobi County, KE, Lavington, Dagoretti North",3,3,95000
 907,"Valley Arcade, Dagoretti North",3,3,95000
@@ -920,7 +874,6 @@
 918,"Kilimani, Dagoretti North",2,2,100000
 919,"Lavington, Dagoretti North",3,1,100000
 920,"Kileleshwa, Dagoretti North",3,3,100000
-921,"Kileleshwa, Dagoretti North",3,3,100000
 922,"Riverside, Westlands",3,3,100000
 923,"Rose Avenue, Kilimani, Dagoretti North",3,3,100000
 924,"Yaya , Tigoni , Kilimani, Dagoretti North",1,1,100000
@@ -963,10 +916,8 @@
 961,"Lavington, Dagoretti North",4,4,100000
 962,"04, kilimani, Kilimani, Dagoretti North",3,3,100000
 963,"riverside, Riverside, Riverside, Westlands",3,2,100000
-964,"kilimani, Kilimani, Kilimani, Dagoretti North",3,2,100000
 965,"kilimani, Kilimani, Kilimani, Dagoretti North",4,4,100000
 966,"lavington, Lavington, Lavington, Dagoretti North",3,3,100000
-967,"kilimani, Kilimani, Kilimani, Dagoretti North",3,3,100000
 968,"kilimani, kilimani, Kilimani, Dagoretti North",3,3,100000
 969,"Westlands Area, Westlands",3,1,100000
 970,"Runda, Westlands",2,2,100000
@@ -980,7 +931,6 @@
 978,"Denis Pritt Road, Kilimani, Dagoretti North",1,1,100000
 979,"Brookside , Westlands Area, Westlands",2,2,100000
 980,"Kilimani, Dagoretti North",3,2,100000
-981,"Kilimani, Dagoretti North",3,2,100000
 982,"Rhapta Road, Rhapta Road, Westlands",3,3,100000
 983,"Riverside, Westlands",3,2,100000
 984,"Rhapta Road, Westlands Area, Westlands",1,1,100000
@@ -1000,11 +950,9 @@
 998,"Kilimani, Dagoretti North",3,3,100000
 999,"Mbaazi, Lavington, Dagoretti North",1,1,100000
 1000,"Kindaruma , Kilimani, Dagoretti North",2,2,100000
-1001,"Mbaazi, Lavington, Dagoretti North",1,1,100000
 1002,"Dennis Pritt, Kilimani, Dagoretti North",3,3,100000
 1003,"Laikipia Rd, Kileleshwa, Dagoretti North",2,2,100000
 1004,"General Mathenge, General Mathenge, Westlands",3,3,100000
-1005,"kilimani, kilimani, Kilimani, Dagoretti North",3,3,100000
 1006,"mvuli road, Rhapta Road, Westlands",3,3,100000
 1007,"Brookside groove, Brookside, Westlands",2,2,100000
 1008,"Kilimani, Dagoretti North",3,2,100000
@@ -1064,7 +1012,6 @@
 1062,"Westlands, Westlands Area, Westlands",1,1,110000
 1063,"Riara Road, Riara Road, Dagoretti North",3,3,110000
 1064,"Siaya Road, Kileleshwa, Dagoretti North",2,2,110000
-1065,"kilimani, Kilimani, Kilimani, Dagoretti North",3,3,110000
 1066,"riverside, Riverside, Riverside, Westlands",4,3,110000
 1067,"riverside, Riverside, Riverside, Westlands",3,3,110000
 1068,"Lavington, Dagoretti North",1,1,110000
@@ -1107,7 +1054,6 @@
 1105,"N/a, Near Yaya Centre, Kilimani, Dagoretti North",1,1,110000
 1106,"Westlands Area, Westlands",1,1,110000
 1107,"Rhapta Road, Westlands Area, Westlands",2,2,110000
-1108,"Rhapta Road, Westlands Area, Westlands",2,2,110000
 1109,"School Lane, Westlands Area, Westlands",1,1,110000
 1110,"Rhapta Road, Westlands",3,2,110000
 1111,"Lavington, Dagoretti North",3,2,110000
@@ -1199,7 +1145,6 @@
 1197,"Riverside Dr, Westlands Area, Westlands",3,3,120000
 1198,"State House, Dagoretti North",2,2,120000
 1199,"King'ara Close, Off King'ara Road, Riara Road, Dagoretti North",3,2,120000
-1200,"Rhapta Road, Westlands Area, Westlands",3,3,120000
 1201,"Rhapta Road, Westlands",3,3,120000
 1202,"vihiga Road, Vihiga Road, Kileleshwa, Dagoretti North",3,3,120000
 1203,"Kilimani, Dagoretti North",1,1,120000
@@ -1220,7 +1165,6 @@
 1218,"Kilimani, Dagoretti North",3,3,120000
 1219,"Gitanga, Gitanga Road, Lavington, Dagoretti North",3,3,120000
 1220,"Westlands road, Westlands Area, Westlands",1,1,120000
-1221,"Westlands Area, Westlands",3,2,120000
 1222,"Lavington, Dagoretti North",2,2,120000
 1223,"Brookside Drive, Parklands, Westlands",4,3,120000
 1224,"Gitanga Road, Lavington, Dagoretti North",3,2,120000
@@ -1233,8 +1177,6 @@
 1231,"Yaya center, Kilimani, Dagoretti North",3,1,120000
 1232,"Riara Rd, Lavington, Dagoretti North",2,2,120000
 1233,"Westlands Area, Westlands",2,2,120000
-1234,"Westlands Area, Westlands",2,2,120000
-1235,"Westlands Area, Westlands",2,2,120000
 1236,"Westlands Area, Westlands",1,1,120000
 1237,"Kileleshwa, Dagoretti North",2,2,120000
 1238,"Kileleshwa, Dagoretti North",3,3,120000
@@ -1260,7 +1202,6 @@
 1258,"kilimani, Kilimani, Kilimani, Dagoretti North",3,3,125000
 1259,"riverside, Riverside, Riverside, Westlands",3,3,125000
 1260,"Kilimani, Dagoretti North",2,2,125000
-1261,"Kilimani, Dagoretti North",2,2,125000
 1262,"Chania Avenue, Kilimani, Dagoretti North",3,3,125000
 1263,"Tabere Cresent Road, Kileleshwa, Dagoretti North",2,2,125000
 1264,"Westlands Area, Westlands",2,2,125000
@@ -1312,8 +1253,6 @@
 1310,"84 Riverside Drive, Riverside, Westlands",3,2,130000
 1311,"Riverside, Riverside, Westlands",3,3,130000
 1312,"Kileleshwa, Dagoretti North",3,2,130000
-1313,"Westlands Area, Westlands",3,3,130000
-1314,"Westlands Area, Westlands",3,3,130000
 1315,"Raphta Road, Westlands Area, Westlands",3,3,130000
 1316,"11, Riverside Drive, Riverside, Westlands",3,3,130000
 1317,"Near Valley Arcade, Lavington, Dagoretti North",3,3,130000
@@ -1336,10 +1275,7 @@
 1334,"gatundu, Gatundu, Kileleshwa, Dagoretti North",2,2,130000
 1335,"Kilimani Road , Kilimani, Dagoretti North",4,3,130000
 1336,"Kilimani, Dagoretti North",3,3,130000
-1337,"Riverside Drive, Riverside, Westlands",2,2,130000
 1338,"Riverside Drive, Riverside, Westlands",3,3,130000
-1339,"Riverside Drive, Riverside, Westlands",3,3,130000
-1340,"Riverside Drive, Riverside, Westlands",3,3,130000
 1341,"Sandalwood Lane Off Riverside Drive, Riverside, Westlands",3,3,130000
 1342,"Kileleshwa, Dagoretti North",3,2,130000
 1343,"KILIMANI ROAD, Kilimani, Dagoretti North",4,3,130000
@@ -1358,8 +1294,6 @@
 1356,"Lavington, Dagoretti North",4,3,130000
 1357,"School Lane, Brookside, Westlands",3,3,130000
 1358,"Lavington, Dagoretti North",3,1,130000
-1359,"Riverside, Westlands",3,3,130000
-1360,"Riverside, Westlands",3,3,130000
 1361,"Raphta Road, Rhapta Road, Westlands",3,3,130000
 1362,"Westlands, Westlands, Westlands Area, Westlands",1,1,130000
 1363,"Kileleshwa, Dagoretti North",3,3,130000
@@ -1436,7 +1370,6 @@
 1434,"General Mathenge, Westlands",3,2,140000
 1435,"suguta road, Kileleshwa, Dagoretti North",2,2,140000
 1436,"General Mathenge, Westlands",2,2,140000
-1437,"Brookside, Westlands Area, Westlands",3,3,140000
 1438,"Westlands, Brookside, Westlands",3,3,140000
 1439,"near Valley arcade shopping, Valley Arcade, Dagoretti North",3,3,140000
 1440,"Riverside, Westlands",4,3,140000
@@ -1452,7 +1385,6 @@
 1450,"kileleshwa, Kileleshwa, Kileleshwa, Dagoretti North",3,3,145000
 1451,"Westlands Area, Westlands",2,2,145000
 1452,"Kilimani, Dagoretti North",3,3,145000
-1453,"kileleshwa, Kileleshwa, Kileleshwa, Dagoretti North",3,3,145000
 1454,"Argwings Kodhek Rd, Kilimani, Dagoretti North",2,2,150000
 1455,"Kilimani, Dagoretti North",4,4,150000
 1456,"Othaya Rd, Lavington, Dagoretti North",4,4,150000
@@ -1490,7 +1422,6 @@
 1488,"Othaya road, Kileleshwa, Dagoretti North",3,3,150000
 1489,"12, lower kabete, Brookside, Westlands",3,3,150000
 1490,"Lavington, Dagoretti North",3,2,150000
-1491,"Lavington, Dagoretti North",3,2,150000
 1492,"Rhapta Road, Westlands",4,1,150000
 1493,"Kileleshwa, Dagoretti North",3,3,150000
 1494,"Nyari, Westlands",4,2,150000
@@ -1517,8 +1448,6 @@
 1515,"Brookside, Westlands",3,3,150000
 1516,"Hurlingham, Dagoretti North",3,1,150000
 1517,"Kileleshwa, Dagoretti North",2,2,150000
-1518,"Westlands Area, Westlands",2,2,150000
-1519,"Kilimani, Dagoretti North",3,3,150000
 1520,"Westlands Area, Westlands",2,2,150000
 1521,"Brookside, Brookside, Brookside, Westlands",4,4,150000
 1522,"Rhapta Road, Westlands",3,2,150000
@@ -1526,7 +1455,6 @@
 1524,"Mbaazi Avenue, Lavington, Dagoretti North",3,3,150000
 1525,"Parklands, Westlands",4,2,150000
 1526,"Westlands Area, Westlands",3,3,150000
-1527,"Gatundu Rd, Kileleshwa, Dagoretti North",3,3,150000
 1528,"Kitale Lane, Kilimani, Dagoretti North",2,2,150000
 1529,"Dennis Pritt, Dagoretti North",3,2,150000
 1530,"6Th Parklands , Parklands, Westlands",3,2,150000
@@ -1539,8 +1467,6 @@
 1537,"Mbaazi, Lavington, Dagoretti North",4,3,150000
 1538,"Near Yaya Center, Kilimani, Dagoretti North",1,1,150000
 1539,"behind Junction Mall, Kilimani, Dagoretti North",3,3,150000
-1540,"Kileleshwa, Dagoretti North",4,4,150000
-1541,"Westlands Area, Westlands",4,4,150000
 1542,"Westlands Area, Westlands",3,2,150000
 1543,"Riverside, Westlands",2,2,150000
 1544,"General Mathenge Drive, General Mathenge, Westlands",4,4,150000
@@ -1602,7 +1528,6 @@
 1600,"Mbaazi Avenue, Lavington, Dagoretti North",3,2,160000
 1601,"Karura, Westlands",2,2,160000
 1602,"Westlands Area, Westlands",1,1,160000
-1603,"Westlands Area, Westlands",2,2,160000
 1604,"Riverside, Westlands",3,3,160000
 1605,"Kileleshwa, Dagoretti North",2,2,160000
 1606,"01, Marula Lane, Kilimani, Dagoretti North",4,4,160000
@@ -1611,10 +1536,8 @@
 1609,"Parklands, Westlands",3,3,160000
 1610,"Othaya Road, Kileleshwa, Dagoretti North",4,4,160000
 1611,"Kilimani, Dagoretti North",3,3,160000
-1612,"Ole Dume, Kilimani, Dagoretti North",3,3,160000
 1613,"General Mathenge, General Mathenge, Westlands",4,4,160000
 1614,"Rhapta Road, Rhapta Road, Westlands",3,1,160000
-1615,"Riverside, Westlands",3,3,160000
 1616,"kilimani, Kilimani, Kilimani, Dagoretti North",3,3,160000
 1617,"General Mathenge Drive, Spring Valley, Westlands",4,4,160000
 1618,"Loresho, Westlands",4,4,160000
@@ -1681,7 +1604,6 @@
 1679,"General Mathenge, Westlands",3,3,170000
 1680,"Garden City, Thika Road, Thika Road, Thika Road",3,2,170000
 1681,"Riverside, Westlands",3,3,170000
-1682,"Kilimani, Dagoretti North",2,2,170000
 1683,"Kilimani, Dagoretti North",3,3,172000
 1684,"Parklands, Westlands",4,4,172000
 1685,"General Mathenge Drive, Parklands, Westlands",3,1,175000
@@ -1696,7 +1618,6 @@
 1694,"General Mathenge, Westlands",3,3,175000
 1695,"Riverside Grove, Riverside, Westlands",3,3,175000
 1696,"General Mathenge, Westlands",3,3,175000
-1697,"Donyo Sabuk Avenue, General Mathenge, Westlands",4,4,175000
 1698,"Westlands, Westlands Area, Westlands",4,4,175000
 1699,"Wood Avenue, Kilimani, Dagoretti North",2,2,180000
 1700,"Off Riverside Drive, Riverside, Westlands",3,3,180000

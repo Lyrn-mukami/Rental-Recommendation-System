@@ -15,8 +15,17 @@ form{
     border-radius: 4px;
 
 }
-label{
-    text-align: center;
+.critique-form{
+    background-color:#c8c8c8;
+    padding-top:2%; 
+}
+.critique-form input{
+    background-color: transparent;
+}
+
+.critique-form label{
+ text-align: center;
+ color: black;
 }
 input{
     width: 100%;
