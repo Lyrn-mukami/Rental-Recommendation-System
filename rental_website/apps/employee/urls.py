@@ -5,8 +5,8 @@ from . import views
 app_name="employee"
 urlpatterns = [
     path('dashboard', views.index, name="dashboard"),
-    path('listings', views.viewProperty, name="listings"),
-    path('newProperty', views.addProperty, name="newProperty"),
-    path('editProperty', views.editProperty, name="editProperty"),
-    path('deleteProperty', views.deleteProperty, name="deleteProperty"),
+    path('property/listings', views.viewProperty, name="listings"),
+    path('property/new', views.addProperty, name="newProperty"),
+    path('property/edit<int:id>/', views.editProperty, name="editProperty"),
+    path('property/delete<int:id>', views.deleteProperty, name="deleteProperty"),
 ]
