@@ -17,14 +17,14 @@ def addProperty(request):
         form = PropertyForm(request.POST) 
         if form.is_valid():
           form.save()
-     return redirect ('/staff/listings')
+     return redirect ('employee:listings')
 
 
 def editProperty(request, id=0):
      if request.method == "GET":
           property = Property.objects.get(pk=id)
           form = PropertyForm(instance=property)
-          return render(request, 'employee:editProperty.html', {'form': form})
+          return render(request, 'employee/editProperty.html', {'form': form})
      else:
           property = Property.objects.get(pk=id)
           form = PropertyForm(request.POST, instance=property) 
