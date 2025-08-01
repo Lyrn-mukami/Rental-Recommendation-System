@@ -4,6 +4,7 @@ from django.http import JsonResponse
 import json
 import pandas as pd
 from .recommend import Recommender
+from rental_website.apps.employee.models import Property
 
 def index(request):
     return render(request, 'index.html')
@@ -21,7 +22,7 @@ def listings(request):
     recommendations = recommendations.reset_index().to_json(orient ='records') 
     data = []
     data = json.loads(recommendations)
-    return render(request, 'listings.html', {'rec':data})
+    return render(request, 'listings.html', {'recommendations':data})
 def critique(request):
     location = request.GET['location']
     bedrooms = request.GET['bedrooms']
@@ -32,4 +33,7 @@ def critique(request):
     recommendations = recommendations.reset_index().to_json(orient ='records') 
     data = []
     data = json.loads(recommendations)            
-    return render(request, 'critiquing.html',{'rec':data})
+    return render(request, 'critiquing.html',{'recommendations':data})
+def list_view(request):
+    properties = Property.objects.all()
+    return render(request, 'listings.html', {'properties':properties})

@@ -8,16 +8,16 @@
     <div class="container ms-auto">
         <h1 class="d-flex justify-content-center">Recommended property listings</h1>
         
-        {% for i in rec %}
+        {% for listing in properties %}
         <div class="row justify-content-center">
             <div class="mb-3 col-6 text-center">
                 <div class="p-2 bd-highlight mx-auto justify-content-center" id="property-listing">
 
                     <ul>
-                        <li>Location: {{i.location}}</li>
-                        <li>Number of bedrooms: {{i.bedrooms}}</li>
-                        <li>Number of bathrooms: {{i.bathrooms}}</li>
-                        <li>Price: {{i.price}}</li>
+                        <li>Location: {{listing.location}}</li>
+                        <li>Number of bedrooms: {{listing.bedrooms}}</li>
+                        <li>Number of bathrooms: {{listing.bathrooms}}</li>
+                        <li>Price: {{listing.price}}</li>
                     </ul>
 
                 </div>

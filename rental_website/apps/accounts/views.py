@@ -4,7 +4,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.http import HttpResponse, HttpRequest
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 
 from .models import *
 from .forms import RegisterForm, LoginForm, CreateUserForm
@@ -37,3 +37,6 @@ def loginPage(request):
             messages.info(request, 'Username or Password Incorrect')
     context = {}
     return render(request, 'accounts/login.html',context)
+def logout_user(request):
+    logout(request)
+    return redirect('public:index')

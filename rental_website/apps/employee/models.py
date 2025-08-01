@@ -12,3 +12,7 @@ class Property(models.Model):
     bedrooms = models.IntegerField()
     bathrooms = models.IntegerField()
     price = models.IntegerField()
+
+    def __str__(self):
+       return f"Location: {self.location}, Bedrooms: {self.bedrooms}, Bathrooms: {self.bathrooms}, Price: {self.price}"
+    
