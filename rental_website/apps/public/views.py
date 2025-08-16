@@ -18,7 +18,7 @@ def listings(request):
     price = request.GET.getlist('price')
     property = {'location':location, 'bedrooms':bathrooms, 'bathrooms':bathrooms, 'price':price, 'choice':choice}
     print(property)
-    recommendations = Recommender.recommend(property)
+    recommendations = Recommender().recommend(property)
     recommendations = recommendations.reset_index().to_json(orient ='records') 
     data = []
     data = json.loads(recommendations)
@@ -36,4 +36,6 @@ def critique(request):
     return render(request, 'critiquing.html',{'recommendations':data})
 def list_view(request):
     properties = Property.objects.all()
-    return render(request, 'listings.html', {'properties':properties})
+    listing_df = pd.DataFrame.from_records(properties.values('location', 'bedrooms', 'bathrooms', 'price'))
+
+    return render(request, 'listings.html', {'properties':listings})

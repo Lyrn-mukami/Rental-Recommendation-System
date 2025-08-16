@@ -14,7 +14,7 @@ from rental_website.apps.employee.models import Property
 model_path = os.path.join(settings.BASE_DIR, "rental_website", "SavedModel", "model.joblib")
 model = load(model_path)
 class Recommender():
-    def transformer(user_df): # transforms raw user and DB data to data that can be used in the machine learning model
+    def transformer(user_df):
     #Get the listing of all properties from the DB and convert it to a dataframe
         listing = Property.objects.all() 
         listing_df = pd.DataFrame.from_records(listing.values('location__area', 'bedrooms', 'bathrooms', 'price'))
@@ -103,3 +103,17 @@ class Recommender():
             return Recommender.predict(features_df, clustered_df, data)
         else:
            return Recommender.list_predict(features_df, clustered_df, data)
+
+
+        
+
+user_data = {
+        "location": "Off Denis Pritt, Kilimani, Dagoretti North",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "price": 40000
+            }
+
+    
+transformed_user = Recommender.recommend(user_data)
+print("User Data:\n", transformed_user)
