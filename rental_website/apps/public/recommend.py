@@ -17,7 +17,7 @@ class Recommender():
     def transformer(user_df): # transforms raw user and DB data to data that can be used in the machine learning model
     #Get the listing of all properties from the DB and convert it to a dataframe
         listing = Property.objects.all() 
-        listing_df = pd.DataFrame.from_records(listing.values('location__area', 'bedrooms', 'bathrooms', 'price'))
+        listing_df = pd.DataFrame.from_records(listing.values('id','location__area', 'bedrooms', 'bathrooms', 'price'))
         listing_df.rename(columns={'location__area': 'location'}, inplace=True)
         processed_df = listing_df[['location','bedrooms','bathrooms','price']].copy()
 
@@ -55,7 +55,7 @@ class Recommender():
 
             # Replace normalized values with actual feature values
             sorted_df = sorted_df.astype({'location': 'object'})
-            sorted_df.loc[:, ['location', 'bedrooms', 'bathrooms', 'price']] = features_df[['location', 'bedrooms', 'bathrooms', 'price']]
+            sorted_df.loc[:, ['id','location', 'bedrooms', 'bathrooms', 'price']] = features_df[['id','location', 'bedrooms', 'bathrooms', 'price']]
 
             # Take top 3 results
             sorted_df = sorted_df.iloc[:3]
@@ -83,7 +83,7 @@ class Recommender():
         sorted_df = property_df.sort_values(['cos_score' ,'price'], ascending=[False,True])
         #Replacing normalized values with actual values
         sorted_df = sorted_df.astype({'location': 'object'})
-        sorted_df.loc[:, ['location', 'bedrooms', 'bathrooms','price']] = features_df[['location', 'bedrooms', 'bathrooms','price']]
+        sorted_df.loc[:, ['id','location', 'bedrooms', 'bathrooms', 'price']] = features_df[['id','location', 'bedrooms', 'bathrooms', 'price']]
         # sorted_df = sorted_df.sample(n=3, weights=sorted_df['cos_score'])
         sorted_df = sorted_df.iloc[:3,]
         final_df = sorted_df.sort_values(['price'])

@@ -6,7 +6,7 @@ def index(request):
      property = Property.objects.all()
      return render(request, 'employee/dashboard.html', {'property': property})
 
-def viewProperty(request, page_number=1):
+def viewProperty(request):
      property = Property.objects.all()
      paginator = Paginator(property,30)
      page_number = request.GET.get("page")
@@ -35,7 +35,7 @@ def editProperty(request, id=0):
           if form.is_valid():
                form.save()
           return redirect ('employee:listings')
-def deleteProperty(request, id=0):
+def deleteProperty(id=0):
      property = Property.objects.get(pk=id)
      property.delete()
      return redirect ('employee:listings')

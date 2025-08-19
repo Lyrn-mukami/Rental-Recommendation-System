@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Find a Home{% endblock %}
+{% load static %}
+{% block content %}
+<section class="py-4">
+
+    <div class="container ms-auto">
+        
+        <div class="row justify-content-left">
+            <div class="mb-3 col-12 text-center">
+
+                <div class="p-2 bd-highlight mx-auto justify-content-end" id="property-listing">
+                    <img src="{% static 'theme/assets/main-4.jpg' %}" alt="" width="600">
+                    <ul>
+                        <li>Location: {{property.location}}</li>
+                        <li>Number of bedrooms: {{property.bedrooms}}</li>
+                        <li>Number of bathrooms: {{property.bathrooms}}</li>
+                        <li>Price: {{property.price}}</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
