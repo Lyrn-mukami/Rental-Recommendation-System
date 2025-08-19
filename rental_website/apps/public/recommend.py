@@ -24,12 +24,12 @@ class Recommender():
     #Encode the location column and scale all the record DB values      
         label_encoder = LabelEncoder()
         label_encoder.fit(processed_df['location'])
-        processed_df['location'] = label_encoder.transform(processed_df['location'])
+        processed_df['location'] = label_encoder.transform(processed_df['location'].values)
         scaler = MinMaxScaler()
         scaler.fit(processed_df)        
 
     #Encode the location column and scale all the record DB values 
-        user_df['location'] = label_encoder.transform(user_df['location'].values)
+        user_df['location'] = label_encoder.transform(user_df['location'])
         user_df[['location','bedrooms','bathrooms','price']] = scaler.transform(user_df)
         return listing_df, user_df
     
@@ -90,11 +90,16 @@ class Recommender():
         return final_df
     
     def recommend(userdata):
-        if isinstance(userdata, dict):
-            user_df = pd.DataFrame([userdata])  # wrap in list
-        else:
+        if all(isinstance(v, list) for v in userdata.values()):
+            #multiple records
             user_df = pd.DataFrame(userdata)
-
+        else:
+            #single record
+            user_df = pd.DataFrame([userdata])
+            # drop rows where choice == 'no' (only if 'choice' column exists)
+        if 'choice' in user_df.columns:
+            user_df = user_df.drop(user_df[user_df['choice'] == 'no'].index)
+            user_df = user_df.drop(['choice'], axis=1)
         clustered_df = os.path.join(settings.BASE_DIR, "rental_website", "SavedModel", "clustered.csv")
         clustered_df = pd.read_csv(clustered_df)
         clustered_df = clustered_df.drop(['Unnamed: 0'], axis=1)

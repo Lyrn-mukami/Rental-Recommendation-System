@@ -7,7 +7,12 @@
     <form action="preferences/critique">
         <h3>Enter Preferences</h3>
         <label for="location">Location</label>
-        <input type="text" id="location" name="location">
+        <select name="location" id="location">
+            {% for loc in locations %}
+            <option value=""selected>select location</option>
+            <option value="{{ loc.area }}">{{ loc.area }}</option>
+            {% endfor %}
+        </select>
         <label for="bedrooms">Number of Bedrooms</label>
         <input type="number" id="bedrooms" name="bedrooms">
         <label for="bathrooms">Number of Bathrooms</label>

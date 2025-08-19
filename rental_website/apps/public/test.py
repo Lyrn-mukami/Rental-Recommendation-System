@@ -90,10 +90,14 @@ class Recommender():
         return final_df
     
     def recommend(userdata):
-        if isinstance(userdata, dict):
-            user_df = pd.DataFrame([userdata])  # wrap in list
-        else:
+        if all(isinstance(v, list) for v in userdata.values()):
+            #multiple records
             user_df = pd.DataFrame(userdata)
+            user_df = user_df.drop(user_df[user_df['choice'] == 'no'].index) #dropping the views that the user selected they don't want to see more of.
+            user_df = user_df.drop(['choice'], axis=1)
+        else:
+            #single record
+            user_df = pd.DataFrame([userdata])
 
         clustered_df = os.path.join(settings.BASE_DIR, "rental_website", "SavedModel", "clustered.csv")
         clustered_df = pd.read_csv(clustered_df)
@@ -107,12 +111,7 @@ class Recommender():
 
         
 
-user_data = {
-        "location": "Off Denis Pritt, Kilimani, Dagoretti North",
-        "bedrooms": 2,
-        "bathrooms": 1,
-        "price": 40000
-            }
+user_data = {'location': ['Limuru Road, Ruaka, Kiambaa', 'Gacharage, Ruaka, Kiambaa', 'Thindigua, Thindigua'], 'bedrooms': ['1.0', '2.0', '3.0'], 'bathrooms': ['1.0', '2.0', '3.0'], 'price': ['23000.0', '37000.0', '75000.0'], 'choice': ['yes', 'no', 'yes']}
 
     
 transformed_user = Recommender.recommend(user_data)

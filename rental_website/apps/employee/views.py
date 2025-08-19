@@ -1,13 +1,17 @@
 from django.shortcuts import render, redirect
 from .models import Location, Property
 from .forms import PropertyForm
+from django.core.paginator import Paginator
 def index(request):
      property = Property.objects.all()
      return render(request, 'employee/dashboard.html', {'property': property})
 
-def viewProperty(request):
+def viewProperty(request, page_number=1):
      property = Property.objects.all()
-     return render(request, 'employee/viewProperty.html', {'property': property})
+     paginator = Paginator(property,30)
+     page_number = request.GET.get("page")
+     page_obj = paginator.get_page(page_number)
+     return render(request, 'employee/viewProperty.html', {'page_obj': page_obj})
 
 def addProperty(request):
      if request.method == 'GET':
